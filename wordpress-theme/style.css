@@ -1,0 +1,41 @@
+/*
+Theme Name: Power of Markets Theme
+Theme URI: https://powerofmarket.graphy.com/
+Author: Abhishek Upadhyay / Power of Markets
+Author URI: https://powerofmarket.com/
+Description: Custom institutional FinTech & Market Education block theme for Power of Markets (POM).
+Version: 1.0.0
+Requires at least: 6.2
+Tested up to: 6.7
+Requires PHP: 8.0
+License: GNU General Public License v2 or later
+Text Domain: pom-theme
+*/
+
+:root {
+  --pom-navy: #071F49;
+  --pom-blue: #0767DF;
+  --pom-cyan: #0AA8EF;
+  --pom-ice: #EEF6FF;
+  --pom-heading: #081B3A;
+  --pom-muted: #61748D;
+  --pom-border: #DCEAF8;
+  --pom-green: #159B72;
+  --pom-warning: #F4B544;
+}
+
+body {
+  background-color: var(--pom-ice);
+  color: var(--pom-heading);
+  font-family: 'DM Sans', sans-serif;
+  margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Manrope', sans-serif;
+  letter-spacing: -0.02em;
+}
+
+.font-mono, .tabular-nums {
+  font-family: 'JetBrains Mono', monospace;
+}

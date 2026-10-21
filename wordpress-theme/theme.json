@@ -1,0 +1,30 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/theme.json",
+  "version": 3,
+  "settings": {
+    "color": {
+      "palette": [
+        { "slug": "deep-navy", "color": "#071F49", "name": "Deep Navy" },
+        { "slug": "royal-blue", "color": "#0767DF", "name": "Royal Blue" },
+        { "slug": "cyan", "color": "#0AA8EF", "name": "Cyan" },
+        { "slug": "ice-blue", "color": "#EEF6FF", "name": "Ice Blue" },
+        { "slug": "heading-navy", "color": "#081B3A", "name": "Heading Navy" },
+        { "slug": "muted-text", "color": "#61748D", "name": "Muted Text" },
+        { "slug": "border-blue", "color": "#DCEAF8", "name": "Border Blue" },
+        { "slug": "positive-green", "color": "#159B72", "name": "Positive Green" },
+        { "slug": "warning-amber", "color": "#F4B544", "name": "Warning Amber" }
+      ]
+    },
+    "typography": {
+      "fontFamilies": [
+        { "fontFamily": "'Manrope', sans-serif", "slug": "heading", "name": "Manrope Heading" },
+        { "fontFamily": "'DM Sans', sans-serif", "slug": "body", "name": "DM Sans Body" },
+        { "fontFamily": "'JetBrains Mono', monospace", "slug": "mono", "name": "JetBrains Mono" }
+      ]
+    },
+    "layout": {
+      "contentSize": "1200px",
+      "wideSize": "1440px"
+    }
+  }
+}

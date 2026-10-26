@@ -50,7 +50,8 @@ export interface Course {
   }[];
   faqs: { question: string; answer: string }[];
   isFeatured?: boolean;
-  graphyUrl: string;
+  portalUrl?: string;
+  graphyUrl?: string;
 }
 
 export interface BlogPost {

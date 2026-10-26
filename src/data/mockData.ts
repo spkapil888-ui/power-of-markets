@@ -121,7 +121,7 @@ export const COURSES_DATA: Course[] = [
       }
     ],
     isFeatured: true,
-    graphyUrl: 'https://powerofmarket.com/courses/option-greeks'
+    portalUrl: 'https://powerofmarket.com/courses/option-greeks'
   },
   {
     id: 'market-structure-price-action',
@@ -181,7 +181,7 @@ export const COURSES_DATA: Course[] = [
       }
     ],
     isFeatured: true,
-    graphyUrl: 'https://powerofmarket.com/courses'
+    portalUrl: 'https://powerofmarket.com/courses'
   },
   {
     id: 'systematic-investing-wealth',
@@ -233,7 +233,7 @@ export const COURSES_DATA: Course[] = [
       }
     ],
     isFeatured: true,
-    graphyUrl: 'https://powerofmarket.com/courses'
+    portalUrl: 'https://powerofmarket.com/courses'
   },
   {
     id: 'derivatives-hedging-risk',
@@ -285,7 +285,7 @@ export const COURSES_DATA: Course[] = [
       }
     ],
     isFeatured: false,
-    graphyUrl: 'https://powerofmarket.com/courses'
+    portalUrl: 'https://powerofmarket.com/courses'
   }
 ];
 
